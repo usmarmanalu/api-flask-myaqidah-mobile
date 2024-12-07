@@ -123,7 +123,7 @@ def get_all_doctors():
             doctor_id_counter += 1  # Increment the ID for the next doctor
 
     return jsonify({
-        "error": False, 
+        "error": False,
         "message": "Success",
         "jadwaldoctors": all_doctors  # Return all doctors in one response
     })
